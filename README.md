@@ -30,7 +30,7 @@ npx skills add seangjr/product-skills -g
 - [linear CLI](https://github.com/useshortcut/linear-cli) authenticated (`linear auth`)
 - git
 - [bun](https://bun.sh) (for project scaffolding)
-- [GSD framework](https://github.com/get-shit-done-cc/gsd) (optional, `/init-project` installs it)
+- [GSD framework](https://github.com/gsd-build/get-shit-done) (optional, `/init-project` installs it)
 
 ## Linear Project Scoping
 
