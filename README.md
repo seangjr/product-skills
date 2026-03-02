@@ -11,6 +11,7 @@ Workflow skills for Claude Code that integrate Linear issue tracking with git-ba
 | `/daily-standup` | Morning standup — surface blockers, stale work, and today's focus |
 | `/start-task` | Pick up the next Linear issue — validate context, create branch, plan approach |
 | `/finish-task` | Wrap up current task — commit, update Linear, optionally create PR |
+| `/maintain` | Codebase health check — type errors, lint, git hygiene, deps, Linear, build, auto-fix |
 
 ## Install
 
@@ -53,4 +54,5 @@ When present, all `linear issue list` calls are filtered to that project. When a
   ... work ...
 /finish-task   →  commit, update Linear, PR, next task
 /sync          →  reconcile Linear ↔ git state
+/maintain      →  codebase health check, auto-fix
 ```
