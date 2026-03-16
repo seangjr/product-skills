@@ -62,7 +62,7 @@ Detected:
 Will install: GSD, skills, CLAUDE.md, settings, commands
 ```
 
-IF everything is already set up: "Project is already fully initialized. Run `/gsd:new-project` or `/sync` to get started."
+IF everything is already set up: "Project is already fully initialized. Run `/gsd:new-project` or `/product:sync` to get started."
 
 ## 1. Git & Framework
 
@@ -178,7 +178,7 @@ Structure:
 ## Conventions
 - Conventional commits: feat, fix, docs, chore, refactor, test
 - Always reference Linear issue IDs
-- Run `/sync` after milestones
+- Run `/product:sync` after milestones
 ```
 
 ## 7. Copy Slash Commands
@@ -218,7 +218,7 @@ Next: run /gsd:new-project to define your roadmap
 - [ ] GSD and skills installed (only what's missing)
 - [ ] CLAUDE.md exists with workflow rules
 - [ ] .linear-project created (or explicitly skipped)
-- [ ] Slash commands available
+- [ ] Slash commands available as /product:*
 - [ ] Clean initial commit
 - [ ] User knows the next step
 </success_criteria>

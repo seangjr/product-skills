@@ -32,7 +32,7 @@ Check preconditions before doing anything:
 
 **Read project scope:**
 - IF `.linear-project` exists → `PROJECT=$(cat .linear-project)`, note: "Scoped to Linear project: {name}"
-- IF missing → warn: "No `.linear-project` found — showing issues from all projects. Run `/init-project` to link one."
+- IF missing → warn: "No `.linear-project` found — showing issues from all projects. Run `/product:init-project` to link one."
 - Store `PROJECT_FLAG` as `${PROJECT:+--project "$PROJECT"}` for use in all `linear` calls
 
 ## 1. Gather State
@@ -121,7 +121,7 @@ Skip the interactive loop if there are zero gaps.
 
 Based on the final state after resolving gaps:
 
-- IF there are unstarted high/urgent issues → suggest `/start-task`
+- IF there are unstarted high/urgent issues → suggest `/product:start-task`
 - IF there's an active in-progress issue with no branch → suggest creating one
 - IF GSD state exists with an incomplete phase → suggest `/gsd:progress`
 - IF everything is synced and nothing urgent → "All clear. Pick up the next task when ready."

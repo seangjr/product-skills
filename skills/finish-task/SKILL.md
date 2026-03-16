@@ -58,7 +58,7 @@ Before closing, check if the work looks done:
   Show each one with file and line.
   Ask: "Are these intentional (tech debt to track) or should you fix them first?"
   - Intentional → continue, note them in Linear comment
-  - Fix first → abort, user fixes, re-runs /finish-task
+  - Fix first → abort, user fixes, re-runs /product:finish-task
 
 **Check test status (if test runner exists):**
 - Look for test config (jest.config, vitest.config, playwright.config, etc.)
@@ -142,7 +142,7 @@ Check what's next:
 
 Based on state:
 - IF other in-progress issues exist → "You still have N issues in progress. Resume one?"
-- IF unstarted issues exist → "Next highest priority in {project-name or "your backlog"}: ENG-456 — Description. Start it? (/start-task ENG-456)"
+- IF unstarted issues exist → "Next highest priority in {project-name or "your backlog"}: ENG-456 — Description. Start it? (/product:start-task ENG-456)"
 - IF nothing → "Backlog is clear{" for " + project-name if scoped}. Nice work."
 
 </process>

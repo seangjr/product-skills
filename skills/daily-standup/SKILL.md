@@ -120,7 +120,7 @@ Explain the reasoning briefly:
 ## 5. Confirm or Adjust
 
 Ask: "Does this plan work for today, or do you want to adjust priorities?"
-- Looks good → "Alright. Run `/start-task` when you're ready to pick up the first item."
+- Looks good → "Alright. Run `/product:start-task` when you're ready to pick up the first item."
 - Adjust → gather changes, update the plan
 - IF a stale issue was flagged:
   Ask: "What's the status on ENG-126? Should I update Linear?"
